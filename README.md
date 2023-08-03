@@ -1,2 +1,2 @@
-# sdk
-all pbn sdk
+# SDK
+All sdk maven repos

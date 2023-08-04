@@ -2,10 +2,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pbn.sdk</groupId>
-  <artifactId>paintcore</artifactId>
-  <version>1.0.3</version>
+  <artifactId>core</artifactId>
+  <version>1.0.0</version>
   <packaging>aar</packaging>
   <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.10.1</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.6.1</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.9.0</version>
+      <scope>api</scope>
+    </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>viewbinding</artifactId>
@@ -28,24 +46,6 @@
       <groupId>com.google.android.material</groupId>
       <artifactId>material</artifactId>
       <version>1.9.0</version>
-      <scope>implementation</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.10.1</version>
-      <scope>implementation</scope>
-    </dependency>
-    <dependency>
-      <groupId>net.lingala.zip4j</groupId>
-      <artifactId>zip4j</artifactId>
-      <version>2.11.5</version>
-      <scope>implementation</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.greenrobot</groupId>
-      <artifactId>eventbus</artifactId>
-      <version>3.3.1</version>
       <scope>implementation</scope>
     </dependency>
     <dependency>

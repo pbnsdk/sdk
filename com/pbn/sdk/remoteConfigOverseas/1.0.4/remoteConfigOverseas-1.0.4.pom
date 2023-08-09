@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pbn.sdk</groupId>
+  <artifactId>remoteConfigOverseas</artifactId>
+  <version>1.0.4</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>8.1.0</version>
+      <scope>api</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-bom</artifactId>
+      <version>32.2.2</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.databinding</groupId>
+      <artifactId>viewbinding</artifactId>
+      <version>8.1.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pbn.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.8</version>
+      <scope>releaseImplementation</scope>
+    </dependency>
+  </dependencies>
+</project>

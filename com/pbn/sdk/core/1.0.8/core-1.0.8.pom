@@ -9,7 +9,7 @@
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.10.1</version>
+      <version>1.12.0</version>
       <scope>api</scope>
     </dependency>
     <dependency>
@@ -33,7 +33,7 @@
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.10.1</version>
+      <version>1.12.0</version>
       <scope>implementation</scope>
     </dependency>
     <dependency>

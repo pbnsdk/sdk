@@ -97,6 +97,12 @@
       <scope>implementation</scope>
     </dependency>
     <dependency>
+      <groupId>com.google.android.ump</groupId>
+      <artifactId>user-messaging-platform</artifactId>
+      <version>2.1.0</version>
+      <scope>implementation</scope>
+    </dependency>
+    <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-ads-identifier</artifactId>
       <version>18.0.1</version>
